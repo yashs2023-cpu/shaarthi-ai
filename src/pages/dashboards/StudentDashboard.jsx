@@ -8,7 +8,6 @@ import StudentAI from '../../components/modes/student/StudentAI';
 import StudentCareer from '../../components/modes/student/StudentCareer';
 import StudentScholarships from '../../components/modes/student/StudentScholarships';
 import StudentStudy from '../../components/modes/student/StudentStudy';
-import ScamShieldPage from '../ScamShield';
 
 const NAV_ITEMS = [
   { path: '/student',             label: 'Dashboard',     icon: '🎓' },

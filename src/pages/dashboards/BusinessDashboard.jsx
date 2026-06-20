@@ -8,7 +8,6 @@ import BusinessAI from '../../components/modes/business/BusinessAI';
 import BusinessInsights from '../../components/modes/business/BusinessInsights';
 import BusinessCustomers from '../../components/modes/business/BusinessCustomers';
 import BusinessGST from '../../components/modes/business/BusinessGST';
-import ScamShieldPage from '../ScamShield';
 
 const NAV_ITEMS = [
   { path: '/business',           label: 'Dashboard',    icon: '💼' },

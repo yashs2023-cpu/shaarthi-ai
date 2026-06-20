@@ -12,19 +12,23 @@ export default function ProtectedRoute({ children }) {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        background: 'var(--ivory)',
+        background: '#FFF8E7',
       }}>
         <div style={{ textAlign: 'center' }}>
           <div style={{
-            width: 48, height: 48,
-            border: '4px solid var(--gray-200)',
-            borderTopColor: 'var(--saffron)',
+            width: 48,
+            height: 48,
+            border: '4px solid #E5E7EB',
+            borderTopColor: '#FF9933',
             borderRadius: '50%',
-            animation: 'spin-slow 0.8s linear infinite',
+            animation: 'spin 0.8s linear infinite',
             margin: '0 auto 16px',
           }} />
-          <p style={{ color: 'var(--gray-500)', fontSize: 14 }}>Loading Saarthi…</p>
+          <p style={{ color: '#9CA3AF', fontSize: 14, fontFamily: 'Poppins, sans-serif' }}>
+            Loading Saarthi…
+          </p>
         </div>
+        <style>{`@keyframes spin { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }`}</style>
       </div>
     );
   }

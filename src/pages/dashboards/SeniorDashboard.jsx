@@ -8,7 +8,6 @@ import SeniorAI from '../../components/modes/senior/SeniorAI';
 import SeniorSOS from '../../components/modes/senior/SeniorSOS';
 import SeniorHealth from '../../components/modes/senior/SeniorHealth';
 import SeniorBenefits from '../../components/modes/senior/SeniorBenefits';
-import ScamShieldPage from '../ScamShield';
 
 const NAV_ITEMS = [
   { path: '/senior',          label: 'Dashboard',      icon: '🌟' },

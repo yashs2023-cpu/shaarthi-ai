@@ -57,7 +57,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     gap: 8,
-    zIndex: 'var(--z-toast)',
+    zIndex: 400,
     maxWidth: 360,
     width: '100%',
   },

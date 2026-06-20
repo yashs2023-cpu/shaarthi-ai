@@ -9,7 +9,6 @@ import AmmaAI from '../../components/modes/amma/AmmaAI';
 import AmmaSchemes from '../../components/modes/amma/AmmaSchemes';
 import AmmaRecipes from '../../components/modes/amma/AmmaRecipes';
 import AmmaCommunity from '../../components/modes/amma/AmmaCommunity';
-import ScamShieldPage from '../ScamShield';
 
 const NAV_ITEMS = [
   { path: '/amma',           label: 'Dashboard',       icon: '🏡' },
